@@ -1,0 +1,28 @@
+# Java & Maven ignores
+target/
+*.class
+*.log
+*.tmp
+*.bak
+
+# Eclipse
+.settings/
+.project
+.classpath
+.metadata/
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Test reports and screenshots
+test-output/
+screenshots/
+
+# OS-specific
+.DS_Store
+Thumbs.db

@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Oryggi Test Suite">
+  <listeners>
+    <listener class-name="com.oryggi.utils.TestListener"/>
+  </listeners>
+  <test name="All Tests">
+    <classes>
+      <class name="com.oryggi.tests.LoginTest"/>
+     
+    </classes>
+  </test>
+</suite>
